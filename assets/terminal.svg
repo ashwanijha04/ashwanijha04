@@ -1,39 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="404" viewBox="0 0 860 404" role="img" aria-labelledby="t d">
   <title id="t">ashwani@dubai — terminal</title>
-  <desc id="d">whoami: Ashwani Jha, independent AI systems engineer in Dubai. Now: shipping extremis 0.4.0 and peekr 0.9.3. Projects: extremis, peekr. AI suggestions rejected: many.</desc>
+  <desc id="d">Ashwani Jha, Senior Software Engineer in Dubai: distributed systems at scale, now building AI agent infrastructure. Experience: PropertyFinder, Senior Software Engineer; Amazon Just Walk Out, SDE II, led 10 engineers (2022–2025); Amazon Pay, SDE (2021–2022); AWS CloudFormation, Cloud Infrastructure Engineer (2019–2021). Impact: AI root-cause agent cut time to root cause from 3 days to 1 hour; store anomaly detection cut cost 40%; Amazon Pay transaction failures down 40%. AI suggestions rejected: many.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
     .bar  { fill: #161b22; }
     .bg   { fill: #0d1117; }
     .ttl  { fill: #8b949e; font-size: 12.5px; }
-    .p    { fill: #7ee787; }           /* prompt */
-    .c    { fill: #e6edf3; }           /* command / text */
+    .p    { fill: #7ee787; }
+    .c    { fill: #e6edf3; }
     .dim  { fill: #8b949e; }
-    .acc  { fill: #b4a7ff; }           /* accent, matches avatar */
+    .acc  { fill: #b4a7ff; }
     .key  { fill: #79c0ff; }
-    .ln   { opacity: 0; animation: show .01s linear forwards; }
-    .typ  { animation: type 0.9s steps(22, end) forwards; }
-    .cur  { fill: #e6edf3; opacity: 0; animation: show .01s linear 6.6s forwards, blink 1.05s steps(1, end) 6.6s infinite; }
-    @keyframes show  { to { opacity: 1; } }
-    @keyframes type  { from { transform: translateX(0); } to { transform: translateX(320px); } }
-    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
-    .spark-in { opacity: 0; animation: show .01s linear 1.2s forwards; }
+    .ray  { fill: #d97757; }
+    .tag  { fill: #d97757; font-size: 13px; }
+    .tagv { fill: #e6edf3; font-size: 13px; font-weight: 600; }
+    .cur  { fill: #e6edf3; animation: blink 1.05s steps(1, end) infinite; }
     .spin  { transform-origin: 0 0; animation: spin 24s linear infinite; }
     .pulse { transform-origin: 0 0; animation: pulse 2.4s ease-in-out infinite; }
-    .ray   { fill: #d97757; }
-    .tag   { fill: #d97757; font-size: 13px; }
-    .tagv  { fill: #e6edf3; font-size: 13px; font-weight: 600; }
+    @keyframes blink { 50% { opacity: 0; } }
     @keyframes spin  { to { transform: rotate(360deg); } }
     @keyframes pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(0.86); } }
-    @media (prefers-reduced-motion: reduce) {
-      .spark-in, .spin, .pulse { animation: none; opacity: 1; }
-      .ln, .cur { animation: none; opacity: 1; }
-      .typ { animation: none; transform: translateX(320px); }
-    }
+    @media (prefers-reduced-motion: reduce) { .cur, .spin, .pulse { animation: none; } }
   </style>
 
   <!-- window -->
-  <rect x="0.5" y="0.5" width="859" height="329" rx="10" class="bg" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="859" height="403" rx="10" class="bg" stroke="#30363d"/>
   <path d="M10.5 0.5 H849.5 a10 10 0 0 1 10 10 V36 H0.5 V10.5 a10 10 0 0 1 10 -10 Z" class="bar"/>
   <line x1="0.5" y1="36" x2="859.5" y2="36" stroke="#30363d"/>
   <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
@@ -42,54 +33,43 @@
   <text x="430" y="22.5" text-anchor="middle" class="mono ttl">ashwani@dubai: ~</text>
 
   <g class="mono">
-    <!-- 1: whoami -->
-    <g class="ln" style="animation-delay:.2s">
-      <text x="24" y="72"><tspan class="p">$</tspan> <tspan class="c">whoami</tspan></text>
-      <rect x="40" y="58" width="320" height="20" class="bg typ" style="animation-delay:.2s"/>
-    </g>
-    <text x="24" y="98" class="ln" style="animation-delay:1.2s"><tspan class="c" font-weight="600">Ashwani Jha</tspan><tspan class="dim"> — independent AI systems engineer · Dubai, UAE</tspan></text>
-    <text x="24" y="120" class="ln dim" style="animation-delay:1.3s">building AI systems that remember, observe, and reproduce.</text>
+    <text x="24" y="72"><tspan class="p">$</tspan> <tspan class="c">whoami</tspan></text>
+    <text x="24" y="98"><tspan class="c" font-weight="600">Ashwani Jha</tspan><tspan class="dim"> — Senior Software Engineer · Dubai, UAE</tspan></text>
+    <text x="24" y="120" class="dim">distributed systems at scale · now building AI agent infrastructure</text>
 
-    <!-- 2: now.log -->
-    <g class="ln" style="animation-delay:1.9s">
-      <text x="24" y="156"><tspan class="p">$</tspan> <tspan class="c">cat now.log</tspan></text>
-      <rect x="40" y="142" width="320" height="20" class="bg typ" style="animation-delay:1.9s"/>
-    </g>
-    <text x="24" y="182" class="ln" style="animation-delay:3.1s"><tspan class="key">shipping</tspan><tspan x="124" class="c">extremis 0.4.0 · peekr 0.9.3</tspan></text>
-    <text x="24" y="204" class="ln" style="animation-delay:3.3s"><tspan class="key">asking</tspan><tspan x="124" class="c">why does temperature=0 still drift?</tspan></text>
+    <text x="24" y="156"><tspan class="p">$</tspan> <tspan class="c">cat experience.log</tspan></text>
+    <text x="124" y="182"><tspan class="acc">PropertyFinder</tspan><tspan x="276" class="c">Senior Software Engineer · Dubai</tspan></text>
+    <text x="24" y="204"><tspan class="dim">2022–2025</tspan><tspan x="124" class="acc">Amazon</tspan><tspan x="276" class="c">SDE II · Just Walk Out · led 10 engineers</tspan></text>
+    <text x="24" y="226"><tspan class="dim">2021–2022</tspan><tspan x="124" class="acc">Amazon Pay</tspan><tspan x="276" class="c">SDE · Alexa voice payments</tspan></text>
+    <text x="24" y="248"><tspan class="dim">2019–2021</tspan><tspan x="124" class="acc">AWS</tspan><tspan x="276" class="c">Cloud Infrastructure Engineer · CloudFormation</tspan></text>
 
-    <!-- 3: ls -->
-    <g class="ln" style="animation-delay:3.9s">
-      <text x="24" y="240"><tspan class="p">$</tspan> <tspan class="c">ls ~/projects</tspan></text>
-      <rect x="40" y="226" width="320" height="20" class="bg typ" style="animation-delay:3.9s"/>
-    </g>
-    <text x="24" y="266" class="ln acc" style="animation-delay:4.9s"><tspan>extremis/</tspan><tspan x="132">peekr/</tspan></text>
+    <text x="24" y="284"><tspan class="p">$</tspan> <tspan class="c">grep -h impact *.log</tspan></text>
+    <text x="24" y="310"><tspan class="key">3 days → 1 hour</tspan><tspan x="214" class="c">time to root cause, with an AI root-cause agent</tspan></text>
+    <text x="24" y="332"><tspan class="key">−40% cost</tspan><tspan x="214" class="c">real-time anomaly detection across stores</tspan></text>
+    <text x="24" y="354"><tspan class="key">−40% failures</tspan><tspan x="214" class="c">Amazon Pay transactions, latency fixes</tspan></text>
 
-    <!-- 4: idle prompt -->
-    <text x="24" y="302" class="ln" style="animation-delay:5.6s"><tspan class="p">$</tspan></text>
-    <rect x="40" y="289" width="9" height="17" class="cur"/>
+    <text x="24" y="386" class="p">$</text>
+    <rect x="40" y="373" width="9" height="17" class="cur"/>
   </g>
+
   <!-- spark (original drawing, a nod to Claude) + tagline -->
-  <g class="spark-in">
-    <g transform="translate(724,102) scale(1.35)">
-      <g class="spin">
-        <g class="pulse">
-          <rect class="ray" x="-3.2" y="-30" width="6.4" height="28" rx="3.2" transform="rotate(0)"/>
-          <rect class="ray" x="-3.2" y="-22" width="6.4" height="20" rx="3.2" transform="rotate(34)"/>
-          <rect class="ray" x="-3.2" y="-27" width="6.4" height="25" rx="3.2" transform="rotate(60)"/>
-          <rect class="ray" x="-3.2" y="-20" width="6.4" height="18" rx="3.2" transform="rotate(94)"/>
-          <rect class="ray" x="-3.2" y="-31" width="6.4" height="29" rx="3.2" transform="rotate(120)"/>
-          <rect class="ray" x="-3.2" y="-23" width="6.4" height="21" rx="3.2" transform="rotate(154)"/>
-          <rect class="ray" x="-3.2" y="-26" width="6.4" height="24" rx="3.2" transform="rotate(180)"/>
-          <rect class="ray" x="-3.2" y="-21" width="6.4" height="19" rx="3.2" transform="rotate(214)"/>
-          <rect class="ray" x="-3.2" y="-30" width="6.4" height="28" rx="3.2" transform="rotate(240)"/>
-          <rect class="ray" x="-3.2" y="-22" width="6.4" height="20" rx="3.2" transform="rotate(274)"/>
-          <rect class="ray" x="-3.2" y="-28" width="6.4" height="26" rx="3.2" transform="rotate(300)"/>
-          <rect class="ray" x="-3.2" y="-20" width="6.4" height="18" rx="3.2" transform="rotate(334)"/>
-        </g>
+  <g transform="translate(724,92) scale(1.35)">
+    <g class="spin">
+      <g class="pulse">
+        <rect class="ray" x="-3.2" y="-30" width="6.4" height="28" rx="3.2" transform="rotate(0)"/>
+        <rect class="ray" x="-3.2" y="-22" width="6.4" height="20" rx="3.2" transform="rotate(34)"/>
+        <rect class="ray" x="-3.2" y="-27" width="6.4" height="25" rx="3.2" transform="rotate(60)"/>
+        <rect class="ray" x="-3.2" y="-20" width="6.4" height="18" rx="3.2" transform="rotate(94)"/>
+        <rect class="ray" x="-3.2" y="-31" width="6.4" height="29" rx="3.2" transform="rotate(120)"/>
+        <rect class="ray" x="-3.2" y="-23" width="6.4" height="21" rx="3.2" transform="rotate(154)"/>
+        <rect class="ray" x="-3.2" y="-26" width="6.4" height="24" rx="3.2" transform="rotate(180)"/>
+        <rect class="ray" x="-3.2" y="-21" width="6.4" height="19" rx="3.2" transform="rotate(214)"/>
+        <rect class="ray" x="-3.2" y="-30" width="6.4" height="28" rx="3.2" transform="rotate(240)"/>
+        <rect class="ray" x="-3.2" y="-22" width="6.4" height="20" rx="3.2" transform="rotate(274)"/>
+        <rect class="ray" x="-3.2" y="-28" width="6.4" height="26" rx="3.2" transform="rotate(300)"/>
+        <rect class="ray" x="-3.2" y="-20" width="6.4" height="18" rx="3.2" transform="rotate(334)"/>
       </g>
     </g>
-    <text x="836" y="172" text-anchor="end" class="mono"><tspan class="tag">AI suggestions rejected: </tspan><tspan class="tagv">many</tspan></text>
   </g>
-
+  <text x="836" y="156" text-anchor="end" class="mono"><tspan class="tag">AI suggestions rejected: </tspan><tspan class="tagv">many</tspan></text>
 </svg>
