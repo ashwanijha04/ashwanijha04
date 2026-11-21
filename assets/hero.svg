@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
+  <title id="t">Ashwani Jha — Senior Software Engineer</title>
+  <desc id="d">Ashwani Jha, Senior Software Engineer building AI agents and distributed systems. Dubai, UAE. Property Finder; previously Amazon (AWS, Amazon Pay, Just Walk Out). Building at scale since 2019, led 10 engineers at Amazon, cut time to root cause from 3 days to 1 hour with an AI agent. AI suggestions rejected: many.</desc>
+  <defs>
+    <radialGradient id="g1" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7c6af7" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#7c6af7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#d97757" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#d97757" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="900" height="300" rx="14"/></clipPath>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
+    </pattern>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .orb1 { animation: drift1 14s ease-in-out infinite alternate; }
+    .orb2 { animation: drift2 18s ease-in-out infinite alternate; }
+    .spin  { transform-origin: 0 0; animation: spin 24s linear infinite; }
+    .pulse { transform-origin: 0 0; animation: pulse 2.4s ease-in-out infinite; }
+    .scan  { animation: scan 6s linear infinite; }
+    @keyframes drift1 { to { transform: translate(-90px, 40px); } }
+    @keyframes drift2 { to { transform: translate(110px, -30px); } }
+    @keyframes spin   { to { transform: rotate(360deg); } }
+    @keyframes pulse  { 0%, 100% { transform: scale(1); } 50% { transform: scale(.86); } }
+    @keyframes scan   { from { transform: translateX(-200px); } to { transform: translateX(1100px); } }
+    @media (prefers-reduced-motion: reduce) { .orb1, .orb2, .spin, .pulse, .scan { animation: none; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="300" fill="#0b0f17"/>
+    <circle class="orb1" cx="720" cy="70" r="230" fill="url(#g1)"/>
+    <circle class="orb2" cx="140" cy="290" r="200" fill="url(#g2)"/>
+    <rect width="900" height="300" fill="url(#grid)"/>
+    <rect class="scan" x="0" y="0" width="160" height="2" fill="#b4a7ff" opacity=".5"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="299" rx="14" fill="none" stroke="#30363d"/>
+
+  <!-- identity -->
+  <text x="48" y="64" class="mono" font-size="13" letter-spacing="3" fill="#b4a7ff">DUBAI, UAE · SINCE 2019</text>
+  <text x="46" y="122" class="sans" font-size="54" font-weight="800" fill="#f0f6fc" letter-spacing="-1">Ashwani Jha</text>
+  <text x="48" y="158" class="sans" font-size="21" fill="#e6edf3">Senior Software Engineer — <tspan fill="#b4a7ff" font-weight="600">AI agents</tspan> &amp; distributed systems</text>
+  <text x="48" y="186" class="sans" font-size="15" fill="#8b949e">Property Finder · previously Amazon (AWS · Amazon Pay · Just Walk Out)</text>
+
+  <!-- stats -->
+  <g class="sans">
+    <line x1="48" y1="214" x2="620" y2="214" stroke="#30363d"/>
+    <text x="48" y="252" font-size="28" font-weight="700" fill="#f0f6fc">7 yrs</text>
+    <text x="48" y="274" font-size="13" fill="#8b949e">building systems at scale</text>
+    <text x="250" y="252" font-size="28" font-weight="700" fill="#f0f6fc">10</text>
+    <text x="250" y="274" font-size="13" fill="#8b949e">engineers led at Amazon</text>
+    <text x="440" y="252" font-size="28" font-weight="700" fill="#d97757">3d → 1h</text>
+    <text x="440" y="274" font-size="13" fill="#8b949e">root-cause time, via an AI agent</text>
+  </g>
+
+  <!-- spark (original drawing, a nod to Claude) -->
+  <g transform="translate(770,128) scale(1.7)">
+    <g class="spin"><g class="pulse" fill="#d97757">
+      <rect x="-3.2" y="-30" width="6.4" height="28" rx="3.2"/>
+      <rect x="-3.2" y="-22" width="6.4" height="20" rx="3.2" transform="rotate(34)"/>
+      <rect x="-3.2" y="-27" width="6.4" height="25" rx="3.2" transform="rotate(60)"/>
+      <rect x="-3.2" y="-20" width="6.4" height="18" rx="3.2" transform="rotate(94)"/>
+      <rect x="-3.2" y="-31" width="6.4" height="29" rx="3.2" transform="rotate(120)"/>
+      <rect x="-3.2" y="-23" width="6.4" height="21" rx="3.2" transform="rotate(154)"/>
+      <rect x="-3.2" y="-26" width="6.4" height="24" rx="3.2" transform="rotate(180)"/>
+      <rect x="-3.2" y="-21" width="6.4" height="19" rx="3.2" transform="rotate(214)"/>
+      <rect x="-3.2" y="-30" width="6.4" height="28" rx="3.2" transform="rotate(240)"/>
+      <rect x="-3.2" y="-22" width="6.4" height="20" rx="3.2" transform="rotate(274)"/>
+      <rect x="-3.2" y="-28" width="6.4" height="26" rx="3.2" transform="rotate(300)"/>
+      <rect x="-3.2" y="-20" width="6.4" height="18" rx="3.2" transform="rotate(334)"/>
+    </g></g>
+  </g>
+  <text x="770" y="226" text-anchor="middle" class="mono" font-size="12.5" fill="#d97757">AI suggestions rejected: <tspan fill="#f0f6fc" font-weight="700">many</tspan></text>
+</svg>
