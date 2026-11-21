@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="t d">
   <title id="t">Ashwani Jha — Senior Software Engineer</title>
-  <desc id="d">Ashwani Jha, Senior Software Engineer building AI agents and distributed systems. Dubai, UAE. Property Finder; previously Amazon (AWS, Amazon Pay, Just Walk Out). Building at scale since 2019, led 10 engineers at Amazon, cut time to root cause from 3 days to 1 hour with an AI agent. AI suggestions rejected: many.</desc>
+  <desc id="d">Ashwani Jha, Senior Software Engineer building AI agents and distributed systems. Dubai, UAE. Property Finder; previously Amazon (AWS, Amazon Pay, Just Walk Out). Building at scale since 2019, led AI coding-agent adoption at Property Finder, cut time to root cause from 3 days to 1 hour with an AI agent. AI suggestions rejected: many.</desc>
   <defs>
     <radialGradient id="g1" cx="50%" cy="50%" r="50%">
       <stop offset="0" stop-color="#7c6af7" stop-opacity=".55"/>
@@ -51,10 +51,10 @@
     <line x1="48" y1="214" x2="620" y2="214" stroke="#30363d"/>
     <text x="48" y="252" font-size="28" font-weight="700" fill="#f0f6fc">7 yrs</text>
     <text x="48" y="274" font-size="13" fill="#8b949e">building systems at scale</text>
-    <text x="250" y="252" font-size="28" font-weight="700" fill="#f0f6fc">10</text>
-    <text x="250" y="274" font-size="13" fill="#8b949e">engineers led at Amazon</text>
-    <text x="440" y="252" font-size="28" font-weight="700" fill="#d97757">3d → 1h</text>
-    <text x="440" y="274" font-size="13" fill="#8b949e">root-cause time, via an AI agent</text>
+    <text x="250" y="252" font-size="28" font-weight="700" fill="#b4a7ff">AI agents</text>
+    <text x="250" y="274" font-size="13" fill="#8b949e">led adoption at Property Finder</text>
+    <text x="470" y="252" font-size="28" font-weight="700" fill="#d97757">3d → 1h</text>
+    <text x="470" y="274" font-size="13" fill="#8b949e">root-cause time, via an AI agent</text>
   </g>
 
   <!-- spark (original drawing, a nod to Claude) -->

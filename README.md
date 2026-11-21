@@ -13,12 +13,12 @@ One question runs through my career: **when a production system breaks, how fast
 
 ### <img src="https://img.shields.io/badge/2026-d97757?style=flat-square" height="22" align="top"> &nbsp;Property Finder &nbsp;<sub>Senior Software Engineer · Dubai</sub>
 
-Building with AI agents day to day: agents that help engineers **triage incidents** and **review code**, and the memory and observability that make them trustworthy in production.
+**Led Property Finder's adoption of AI coding agents across engineering**: rolling them out to engineers and building the agents that help teams **triage incidents** and **review code**.
 
 ### <img src="https://img.shields.io/badge/2022–2025-7c6af7?style=flat-square" height="22" align="top"> &nbsp;Amazon Just Walk Out &nbsp;<sub>SDE II · Bengaluru</sub>
 
 In a Just Walk Out store, cameras and sensors replace the cashier, so when something breaks there's nobody at a till to notice.
-- **Led 10 engineers** building real-time anomaly detection over store camera and sensor signals, ranking the issue that matters most in each store: **40% lower cost**, **60% more engineering time** for actual fixing.
+- **Led a team of 10 engineers** that built real-time anomaly detection over store camera and sensor signals, ranking the issue that matters most in each store: **40% lower cost**, **60% more engineering time** for actual fixing.
 - Built an **AI root-cause agent** that cut time-to-root-cause from **3 days to 1 hour**.
 - Built a RAG assistant on Bedrock over internal SOPs, and ARIMA sales forecasting for Amazon Go stores.
 
