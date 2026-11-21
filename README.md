@@ -11,7 +11,7 @@ One question runs through my career: **when a production system breaks, how fast
 
 ## Experience
 
-### <img src="https://img.shields.io/badge/2026-d97757?style=flat-square" height="22" align="top"> &nbsp;Property Finder &nbsp;<sub>Senior Software Engineer · Dubai</sub>
+### <img src="https://img.shields.io/badge/2025–2026-d97757?style=flat-square" height="22" align="top"> &nbsp;Property Finder &nbsp;<sub>Senior Software Engineer · Dubai</sub>
 
 **Led Property Finder's adoption of AI coding agents across engineering**: rolling them out to engineers and building the agents that help teams **triage incidents** and **review code**.
 
