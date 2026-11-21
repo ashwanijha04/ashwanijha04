@@ -2,7 +2,7 @@
   <img src="assets/terminal.svg" alt="$ whoami — Ashwani Jha, Senior Software Engineer, Dubai. Experience at PropertyFinder and Amazon (Just Walk Out, Amazon Pay, AWS CloudFormation)." width="860">
 </p>
 
-One question runs through my career: **when a production system breaks, how fast can you find out why?** I've been answering it at every job since.
+One question runs through my career: **when a production system breaks, how fast can you find out why?** Every role below is a different answer.
 
 ---
 
