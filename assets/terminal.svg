@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="860" height="352" viewBox="0 0 860 352" role="img" aria-labelledby="t d">
   <title id="t">ashwani@dubai — terminal</title>
-  <desc id="d">whoami: Ashwani Jha, independent AI systems engineer in Dubai. Now: reading LLM-42 on deterministic LLM inference; shipping extremis 0.4.0 and peekr 0.9.3. Projects: extremis, peekr, yuno-orchestrator, citytaxis-mcp.</desc>
+  <desc id="d">whoami: Ashwani Jha, independent AI systems engineer in Dubai. Now: reading LLM-42 on deterministic LLM inference; shipping extremis 0.4.0 and peekr 0.9.3. Projects: extremis, peekr.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
     .bar  { fill: #161b22; }
@@ -55,7 +55,7 @@
       <text x="24" y="262"><tspan class="p">$</tspan> <tspan class="c">ls ~/projects</tspan></text>
       <rect x="40" y="248" width="320" height="20" class="bg typ" style="animation-delay:3.9s"/>
     </g>
-    <text x="24" y="288" class="ln acc" style="animation-delay:4.9s"><tspan>extremis/</tspan><tspan x="132">peekr/</tspan><tspan x="213">yuno-orchestrator/</tspan><tspan x="403">citytaxis-mcp/</tspan></text>
+    <text x="24" y="288" class="ln acc" style="animation-delay:4.9s"><tspan>extremis/</tspan><tspan x="132">peekr/</tspan></text>
 
     <!-- 4: idle prompt -->
     <text x="24" y="324" class="ln" style="animation-delay:5.6s"><tspan class="p">$</tspan></text>

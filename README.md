@@ -10,8 +10,6 @@ I build the infrastructure underneath AI agents: how they **remember**, how you 
 |---|---|
 | **[extremis](https://github.com/ashwanijha04/extremis)** &nbsp;[![PyPI](https://img.shields.io/pypi/v/extremis?style=flat-square&color=7c6af7&label=pip)](https://pypi.org/project/extremis) | Layered memory for AI agents: log-first, RL-scored retrieval, consolidation-backed. MCP-native, so it plugs into Claude Desktop in one line.<br>`pip install "extremis[mcp]"` |
 | **[peekr](https://github.com/ashwanijha04/peekr)** &nbsp;[![PyPI](https://img.shields.io/pypi/v/peekr?style=flat-square&color=7c6af7&label=pip)](https://pypi.org/project/peekr) | In-process observability, evaluation and compliance guardrails for AI agents. No proxy, so your data never leaves your stack. Claim-level hallucination detection.<br>`pip install peekr` |
-| **[yuno-orchestrator](https://github.com/ashwanijha04/yuno-orchestrator)** | Multi-agent orchestration on a real runtime: LangGraph, FastAPI and Next.js. Agents can spawn real Claude Code sessions on your machine. |
-| **[citytaxis-mcp](https://github.com/ashwanijha04/citytaxis-mcp)** | A remote MCP server that lets AI assistants search routes, quote fares and book taxis across 30+ intercity routes in central India. |
 
 ### Reading
 
