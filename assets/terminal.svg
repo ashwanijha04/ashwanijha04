@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="352" viewBox="0 0 860 352" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="330" viewBox="0 0 860 330" role="img" aria-labelledby="t d">
   <title id="t">ashwani@dubai — terminal</title>
-  <desc id="d">whoami: Ashwani Jha, independent AI systems engineer in Dubai. Now: reading LLM-42 on deterministic LLM inference; shipping extremis 0.4.0 and peekr 0.9.3. Projects: extremis, peekr.</desc>
+  <desc id="d">whoami: Ashwani Jha, independent AI systems engineer in Dubai. Now: shipping extremis 0.4.0 and peekr 0.9.3. Projects: extremis, peekr.</desc>
   <style>
     .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; }
     .bar  { fill: #161b22; }
@@ -24,7 +24,7 @@
   </style>
 
   <!-- window -->
-  <rect x="0.5" y="0.5" width="859" height="351" rx="10" class="bg" stroke="#30363d"/>
+  <rect x="0.5" y="0.5" width="859" height="329" rx="10" class="bg" stroke="#30363d"/>
   <path d="M10.5 0.5 H849.5 a10 10 0 0 1 10 10 V36 H0.5 V10.5 a10 10 0 0 1 10 -10 Z" class="bar"/>
   <line x1="0.5" y1="36" x2="859.5" y2="36" stroke="#30363d"/>
   <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
@@ -46,19 +46,18 @@
       <text x="24" y="156"><tspan class="p">$</tspan> <tspan class="c">cat now.log</tspan></text>
       <rect x="40" y="142" width="320" height="20" class="bg typ" style="animation-delay:1.9s"/>
     </g>
-    <text x="24" y="182" class="ln" style="animation-delay:2.9s"><tspan class="key">reading</tspan><tspan x="124" class="c">LLM-42 — deterministic LLM inference</tspan><tspan x="476" class="dim">SOSP '26</tspan></text>
-    <text x="24" y="204" class="ln" style="animation-delay:3.1s"><tspan class="key">shipping</tspan><tspan x="124" class="c">extremis 0.4.0 · peekr 0.9.3</tspan></text>
-    <text x="24" y="226" class="ln" style="animation-delay:3.3s"><tspan class="key">asking</tspan><tspan x="124" class="c">why does temperature=0 still drift?</tspan></text>
+    <text x="24" y="182" class="ln" style="animation-delay:3.1s"><tspan class="key">shipping</tspan><tspan x="124" class="c">extremis 0.4.0 · peekr 0.9.3</tspan></text>
+    <text x="24" y="204" class="ln" style="animation-delay:3.3s"><tspan class="key">asking</tspan><tspan x="124" class="c">why does temperature=0 still drift?</tspan></text>
 
     <!-- 3: ls -->
     <g class="ln" style="animation-delay:3.9s">
-      <text x="24" y="262"><tspan class="p">$</tspan> <tspan class="c">ls ~/projects</tspan></text>
-      <rect x="40" y="248" width="320" height="20" class="bg typ" style="animation-delay:3.9s"/>
+      <text x="24" y="240"><tspan class="p">$</tspan> <tspan class="c">ls ~/projects</tspan></text>
+      <rect x="40" y="226" width="320" height="20" class="bg typ" style="animation-delay:3.9s"/>
     </g>
-    <text x="24" y="288" class="ln acc" style="animation-delay:4.9s"><tspan>extremis/</tspan><tspan x="132">peekr/</tspan></text>
+    <text x="24" y="266" class="ln acc" style="animation-delay:4.9s"><tspan>extremis/</tspan><tspan x="132">peekr/</tspan></text>
 
     <!-- 4: idle prompt -->
-    <text x="24" y="324" class="ln" style="animation-delay:5.6s"><tspan class="p">$</tspan></text>
-    <rect x="40" y="311" width="9" height="17" class="cur"/>
+    <text x="24" y="302" class="ln" style="animation-delay:5.6s"><tspan class="p">$</tspan></text>
+    <rect x="40" y="289" width="9" height="17" class="cur"/>
   </g>
 </svg>
